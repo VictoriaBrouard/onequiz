@@ -8,15 +8,26 @@
 	font-family: 'Pacifico', cursive;
 	font-size: 50px;
 	color: #90C3D4;
-	fot-weight:bold;
+	font-weight:bold;
+	text-shadow: -14px 4px 0 #D9D9D9;
+	text-align: center;
+	padding-top: 100px;
 }
 
 .blurb {
 	font-family: 'Pacifico', cursive;
 	font-size: 25px;
 	color: black;
+	text-align: center;
 }
 
 .clear {
 	clear:both;
+}
+
+body {
+	background: url('firehose.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }

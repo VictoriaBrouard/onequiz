@@ -27,8 +27,20 @@
 }
 
 body {
-	background: url('firehose.jpg');
+	background-colour: white;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+}
+
+.next-title {
+	color: #424ABD;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+}
+
+.add-title {
+	color: #424ABD;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
 }

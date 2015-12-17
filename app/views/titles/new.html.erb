@@ -1,0 +1,8 @@
+<h1>Enter your book</h1>
+<%= simple_form_for @title do |f|%>
+	<%= f.input :title %>
+	<%= f.input :author %>
+	<%= f.input :user_name %>
+	<br />
+	<%= f.submit 'Add', :class => 'btn btn-primary' %>
+<% end %>

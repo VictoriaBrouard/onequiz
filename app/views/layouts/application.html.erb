@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Onequiz</title>
+  <title>Bookworm</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="initial-scale=1">
 </head>
 <body>
-	<header>
-		<div class="col-xs-12 welcome">
-			Welcome to Onequiz!
-		</div>
-		<div class="col-xs-12 blurb">
+	<div class="col-xs-12 welcome">
+		Welcome to Bookworm!
+	</div>
+	<div class="col-xs-12 blurb">
 		Proudly hacked with help from theFirehoseProject
 	</div>
-</header>
+	<div class="footer">
+		<div class="container">
+			<div class="col-xs-6">
+				<%= link_to "Tell me what to read next!", root_path, :class => 'next-title' %>
+			</div>
+			<div class="col-xs-6">
+				<%= link_to "I want to add my favourite!", new_title_path, :class => 'add-title' %>
+			</div>
+		</div>
+	</div>
+
 
 <br class="clear" />
 
